@@ -5,7 +5,5 @@ def solution(nums):
 
     if pokemon > len(nums) // 2:
         return len(nums) // 2
-    elif pokemon < len(nums) // 2:
-        return pokemon
-    elif pokemon == len(nums) // 2:
+    else:
         return pokemon
