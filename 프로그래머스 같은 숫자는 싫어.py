@@ -7,3 +7,4 @@ def solution(arr):
             continue
         answer.append(i)
     return answer
+
