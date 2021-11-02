@@ -9,12 +9,12 @@ def plus_two(x):
 
 result_1 = list(map(plus_two, [1, 2, 3, 4, 5]))
 print(result_1)
--> [3, 4, 5, 6, 7]
+# -> [3, 4, 5, 6, 7]
 
 # 2. 람다 함수 버전
 result_2 = list(map(lambda x: x + 2), [1, 2, 3, 4, 5])
 print(result_2)
--> [3, 4, 5, 6, 7]
+# -> [3, 4, 5, 6, 7]
 
 
 ## python lambda 함수와 ilter
@@ -24,10 +24,10 @@ def is_even(x):
 
 result_3 = list(filter(is_even, range(10)))
 print(result_3)
--> [0, 2, 4, 6, 8]
+# -> [0, 2, 4, 6, 8]
 
 # 2. 람다 함수 버전
 result_4 = list(filter(lambda x: x % 2 == 0), range(10))
 print(result_4)
--> [0, 2, 4, 6, 8]
+# -> [0, 2, 4, 6, 8]
 
