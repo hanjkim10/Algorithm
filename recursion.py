@@ -14,8 +14,8 @@
 # Alternatively, the first operation could be (1 + 1, 1) to get (2, 1) and so on.
 # The diagram below demonstrates the example that represents the pairs as Certesian coordinates
 
-(a, b) = (1, 1)
-(c, d) = (5, 2)
+# (a, b) = (1, 1)
+# (c, d) = (5, 2)
 
 
 import sys

@@ -4,7 +4,7 @@ from itertools import combinations
 
 def check(a, b, c):
     total = a + b + c
-    for i in range(2, total):
+    for i in range(3, total):
         if total % i == 0:
             return False
     return True
